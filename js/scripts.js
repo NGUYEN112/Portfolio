@@ -8,7 +8,18 @@
 // 
 
 window.addEventListener('DOMContentLoaded', event => {
+    // scroll
+    ScrollReveal().reveal('#about', {
+        distance: '50px',origin: "top" ,duration: 600, easing: 'ease-in-out', delay: 200 , interval: 300 , reset : true
+    });
 
+    ScrollReveal().reveal('#skills', {
+        distance: '100px', origin: "top", easing: 'ease-in-out', duration: 600, delay: 100, interval: 300, reset : true
+    });
+
+    ScrollReveal().reveal('#projects', {
+        distance: '100px', origin: "left", easing: 'ease-in-out',  duration: 600, delay: 200, interval: 300, reset : true
+    });
     // Navbar shrink function
     var navbarShrink = function () {
         const navbarCollapsible = document.body.querySelector('#mainNav');

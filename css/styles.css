@@ -10874,7 +10874,7 @@ textarea.form-control-lg {
 }
 html {
   scroll-behavior: smooth;
-  /* scroll-padding-top: 4.5rem; */
+  scroll-padding-top: -2rem;
 }
 
 body {
@@ -11457,3 +11457,49 @@ section#contact form#contactForm :-ms-input-placeholder {
 .item-contact p {
   color: white;
 }
+
+header .container div:nth-child(1) {
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+  animation-name: jobs;
+}
+
+header .btn-xl {
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+}
+
+#about .about-group {
+  /* -webkit-animation-delay: 2s; */
+  animation-delay: 2s;
+}
+
+#about .infomation-dev p:nth-child(3) {
+  animation-delay: 0.2s;
+}
+
+#about .infomation-dev p:nth-child(4) {
+  animation-delay: 0.4s;
+}
+
+#about .infomation-dev p:nth-child(5) {
+  animation-delay: 0.6s;
+}
+#about .infomation-dev p:nth-child(6) {
+  animation-delay: 0.8s;
+}
+
+#about .infomation-dev p:nth-child(7) {
+  animation-delay: 1s;
+}
+
+/* @keyframes jobs {
+  50% {
+    width: 100%;
+    left: 0;
+  }
+  100% {
+    width: 0;
+    left: 100%;
+  }
+} */
