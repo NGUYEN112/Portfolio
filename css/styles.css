@@ -11461,7 +11461,7 @@ section#contact form#contactForm :-ms-input-placeholder {
 header .container div:nth-child(1) {
   -webkit-animation-delay: 1s;
   animation-delay: 1s;
-  animation-name: jobs;
+  /* animation-name: jobs; */
 }
 
 header .btn-xl {
